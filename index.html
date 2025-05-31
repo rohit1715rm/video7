@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jee Form</title>
 </head>
+
 <body>
     <h1>form for jee </h1>
     <form action="post">
         <label for="username"> Enter Your Username</label>
         <input type="text" id="uesrname" name="uesrname" placeholder="enter your username">
+        <div><label for="username"> Enter Your father's name</label>
+            <input type="text" id="uesrname" name="uesrname" placeholder="enter your username">
+        </div>
+        <label for="username"> Enter Your Mother's name</label>
+        <input type="text" id="uesrname" name="uesrname" placeholder="enter your username">
+        <div><input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">All the name are right</label>
+        </div>
+
+        <div><select name="fruits">
+                <option value="general">General</option>
+                <option value="obc">Obc</option>
+                <option value="st">St</option>
+                <option value="sc">Sc</option>
+            </select></div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
     </form>
 </body>
+
 </html>
